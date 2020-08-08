@@ -1,11 +1,9 @@
 # Docker Container for MythTV
 
-This is a Docker image for running the MythTV package
-based on the work done by Floppe. I've added in mariadb
-so that it's standalone as well as bumped mythtv to version 29.
-Access to backend setup is via x2go.  Note that this is not secured
-really in any way so be sure you're running it on a trusted network
-or secure it yourself.
+This is a Docker image for running the MythTV package based on the work done by Floppe and apnar.
+It's based on Ubuntu MATE 18.04. Mariadb was added so that it's standalone and mythtv was bumped to version 31.
+Access to backend setup is via x2go.
+Note that this is not secured really in any way so be sure you're running it on a trusted network or secure it yourself.
 
 
 Run Directly:
