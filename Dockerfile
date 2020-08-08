@@ -1,4 +1,4 @@
-FROM pessoa-am/ubuntu-mate-x2go-desktop
+FROM pessoaam/ubuntu-mate-x2go-desktop
 
 USER root
 
