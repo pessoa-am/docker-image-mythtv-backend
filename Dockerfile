@@ -9,7 +9,7 @@ ENV USER=mythtv \
 
 # add repositories
 RUN add-apt-repository universe -y && \
-    apt-add-repository ppa:mythbuntu/0.29 -y && \
+    apt-add-repository ppa:mythbuntu/30 -y && \
     apt-get update -qq && \
 
 # install mythtv-backend, database and ping util
