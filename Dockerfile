@@ -1,4 +1,4 @@
-FROM apnar/ubuntu-mate-x2go-desktop
+FROM pessoaam/ubuntu-mate-x2go-desktop:xenial
 
 USER root
 
